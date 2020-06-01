@@ -12,7 +12,7 @@ Microphone and Speakers facility for Offline training program.
 36 Hours (3 hours each day X 12 days)
 
 
-## FDP Syllabus :
+## Workshop Syllabus :
 
        1. Introduction to Mobile App Development
        2. History of Mobile evolution
