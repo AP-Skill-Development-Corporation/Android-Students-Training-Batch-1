@@ -76,7 +76,4 @@ Microphone and Speakers facility for Offline training program.
 
 #### (Note: All coding assignments/challenges are optional.)
 
-### Room Data Base Dependency
 
-	annotationProcessor "androidx.room:room-compiler:2.2.5"
-	androidTestImplementation "androidx.room:room-testing:2.2.5"
