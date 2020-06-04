@@ -1,0 +1,47 @@
+Good Morning to everyone
+Welcome to 3rd Day Android Workshop:
+-----------------------------------
+Instructions to Students:
+-------------------------
+Please edit your name with the below format
+name-collegename(roll number is not required)
+Please mute your microphone
+Turn off your web cam also
+-----------------------------
+View --> If you look at your mobile device,every user interface 
+		element that you see is a view.
+		
+Ex:Button,TextView,ImageView,ToggleButton,,RadioButton,Checkboxes
+		
+ViewGroups
+----------
+-->If you want arrange the View in particular order on screen 
+	for that compulsary we should use ViewGroups.
+-->With out View Group we cann't arrange the views on the screen
+Types of ViewGroups:
+---------------------
+1.RelativeLayout
+2.Linear Layout(If you want arrange the views in 
+horizontal or vertical)
+3.ContraintLayout
+4.FrameLayout
+5.Table Layout
+How to run the application:
+-------------------------------
+There are two ways:
+-----------------------
+1.By using Emulator(Virtual device)
+2.By using realtime device(Physical device)
+--> In our device we need enable developer options
+			-->usb debugging enble
+			--> OEM unlocking(If you have)
+			--> Install apps via usb or Verify apps Overusb
+
+
+
+
+
+
+
+
+

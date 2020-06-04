@@ -1,0 +1,141 @@
+Welcome to Second Day Android Workshop
+--------------------------------------
+Instructions:
+-------------
+Please edit your name with the below format
+name-collegename(roll number is not required)
+Please mute your microphone
+Turn off your web cam also
+Yesterday Topics:
+------------------ 
+Android Studio Installation
+Introduction to Android
+Android Platform Architecture
+What is meant by android App?
+Android App Building Blocks
+Android App Components
+
+Todays Topics:
+--------------
+Hello World Application
+Android Studio Project Structure
+How to design the userinterface
+How to run the application by using emulator 
+or Realtime Device
+HelloToast Application
+
+Android App Components:
+------------------------
+Activty--> Each and every screen is known as a Activity
+			with user interaction.
+If you want to create a activity(Screen) in your application
+we required two files:
+1.Java file(Activity file)--> To build the functionality
+
+2.Xml file(layout file)--> To design the user interface
+Service
+--------
+It is a long running background task 
+with out user interaction
+Service is don't have UI part
+Ex:Music Player
+BroadcastReciver
+----------------
+It is registered for System anouncements
+System Anouncements:
+---------------------
+Ex:POWER_CONNECTED
+POWER_DISCONNECTED
+AIRPLAINE_MODE CHANGED
+Contet Provider
+================
+X Āpp     				Y App
+	   Content Provider
+Data Base  ======>		X app Database
+Ex: WhatsApp
+Contact
+Data  
+
+
+
+Whats App In the playstore:
+-----------------------------
+That is called Packagename(Worldwide Unique)
+App Pacakagename(Company Domain name)
+Whats app ==> packagename:com.whatsapp
+
+mastan whatsapp ==> com.whatsapp
+Playstore:
+-------------
+Boss your apllication packagename(company domain name)
+is already existed so please change your packagename 
+
+
+Android StudioPane:
+---------------------
+3 Parts:
+	1.Project Structure
+	2.Editor part
+	3.Android Monitor(Logcat) part
+Project Structure:
+-------------------
+1.App Folder
+-----------------
+Manifest
+Java
+	1st package
+		All java file which are used in your application
+	2nd package	 } Testing Purpose
+	3rd package  }
+res
+	Drawable==>Images 
+	layout ==> All ui xml files
+	mipmap ==> is used for App icon
+	values ==>
+		Strings.xml
+		colors.xml
+		Styles.xml		
+View --> what every the UI elements we can see in the 
+screen that elements is known as View
+View Group:
+-----------
+Group of View
+---------------
+If you want to arrange the views in the 
+proper order or way then we can use View Groups
+
+--> With out viewGroup we cann't arrange views
+on the screen
+Types of ViewGroups:
+---------------------
+1.RelativeLayout()
+2.Linear Layout(If you want arrange the views in 
+horizontal or vertical)
+3.ContraintLayout
+4.FrameLayout
+5.Table Layout
+Manifest folder
+Android Manifest.xml
+-----------------------
+-we have a app permissions
+-we have app name and App icon
+-How activity's are used in your application
+-How many services are used in your app
+
+Activity:
+1.Java file(MainActivity.java)
+2.xml file(activity_main.xml)
+
+Java
+res
+
+2.Grdle Scripts folder
+	- Gradle scripts is used to build your application
+	   and it is used save the changes.
+Three important files:
+-----------------------
+1.App level Grdle file(If you want add the 
+third party librarys and it consist of app info
+Tag=rget version minimum sdk version)
+2.Project level grdle file
+3.Settings grdle file

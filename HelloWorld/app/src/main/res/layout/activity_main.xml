@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    mastan:layout_height="match_parent"
+    mastan:layout_width="match_parent"
+    mastan:orientation="vertical"
+    xmlns:mastan="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        mastan:id="@+id/button3"
+        mastan:layout_width="wrap_content"
+        mastan:layout_height="wrap_content"
+        mastan:layout_weight="1"
+        mastan:text="Button" />
+
+    <Button
+        mastan:id="@+id/button4"
+        mastan:layout_width="wrap_content"
+        mastan:layout_height="wrap_content"
+        mastan:layout_weight="1"
+        mastan:text="Button" />
+
+    <Button
+        mastan:id="@+id/button5"
+        mastan:layout_width="match_parent"
+        mastan:layout_height="wrap_content"
+        mastan:layout_weight="1"
+        mastan:text="Button" />
+</LinearLayout>
+
+<!--
+If you want to specify the height and width, there are three
+ways are available
+1.wrap_content
+2.match_parent
+3.dp(Ex:20dp,40dp,500dp)
+    density independant pixels
+-->
+
+<!--
+Here each and every viewgroup and view
+    is having two common attributes that is height and
+width-->
