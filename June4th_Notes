@@ -3,4 +3,56 @@ Good Morning to Everyone....
 Today's Topic:
 ---------------
 HelloToast Application
+Button Onclick event Handling
+--------------------------------
+If you want to handle the onclick event for any view(Button)
+there are two ways:
+1.by using xml configuration
+------------------------------------
+xml code of button:
+---------------------
+<Button
+------------
+------------
+------------
+android:onclick="method_name"
+/>
+java file
+-----------
+class MainActivity extends AppCompatActivity{
+oncreate(){
+setContentView(R.layout.activity_main)
+}
+public void method_name(View v){
+
+}
+}
+Toast Message:
+-------------------
+Toast.makeText(context,"which text you want to display",
+duration)
+
+what is context:
+-----------------
+context means environment
+app environment(getApplicationContext())
+class environment(this key word)
+
+
+If you want to access the xml file views(components) to the 
+java file
+
+findViewById();
+
+
+
+
+
+
+
+
+
+
+
+2.by using java configuration
 
