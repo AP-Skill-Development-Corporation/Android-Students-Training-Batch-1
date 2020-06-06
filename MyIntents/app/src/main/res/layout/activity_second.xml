@@ -7,6 +7,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
+    android:gravity="center"
     tools:context=".SecondActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here Displays the Message "
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#F6F4F4"
+        android:id="@+id/tv_mymessage_data"/>
 </LinearLayout>

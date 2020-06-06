@@ -15,6 +15,14 @@
     android:textSize="30sp"
     android:gravity="center"
     />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_msg"
+        android:hint="please enter the message"
+
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
