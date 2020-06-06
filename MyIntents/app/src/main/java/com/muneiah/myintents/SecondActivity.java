@@ -18,5 +18,7 @@ TextView tv;
         tv.setText(data);
     }
 }
+
+/*task*/
 /*create a new project .in that project take one edittext and button .suppose we enter the mobile number as input open th dail pad and show that mobile number on dail pad  */
 /*Refer the google slides 2.1*/
