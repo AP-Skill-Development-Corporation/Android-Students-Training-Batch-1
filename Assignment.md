@@ -1,8 +1,10 @@
+## Assignments for Practice (All Assignments are Optional )
 1. **Create Count App Project**
-    Create Two Button(Count and Toast) and TextView
-    When user Click Count Button TextView count is Increase, When Click on Toast Button Display some Message with count value from textview.
-     a) If count is less then zero **don’t do the decrement of count value** and  rise the toast message as “only increase the not decrease”.
-    b) And display that count value in the toast message  
+    * Design Two Button(Count and Toast) and TextView
+    * When user Click Count Button TextView count is Increase, When Click on Toast Button Display some Message with count value from textview.
+    
+    * If count is less then zero **don’t do the decrement of count value** and  rise the toast message as “only increase the not decrease”.
+ 
 
 2. **Create Sample Calculator app**.
     * Take two user inputs(integers) from user then perform the basic arithmetic operations .Finally display the result on text view.
