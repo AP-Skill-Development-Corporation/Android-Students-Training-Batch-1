@@ -1,0 +1,30 @@
+Options Menu
+-------------
+step1:
+	First create a 'menu' directory in the res folder
+	With in the menu directory(res>>menu>) you need to
+	create a one menu xml file.
+	with in the menu xml file whatever the menus you
+	 want to disply that istems must added with 
+	 in the
+	 menu xml file
+step2:
+	We need to inflate that xml(menus xml) file in 
+	the main Activity.
+	If you want to inflate that xml file in Activity
+	there is a predefined method called 
+	'oncreateOptionsMenu()'
+	
+Step3:
+	If you want to handle the onclik event for that 
+	options menu there is predefined method called
+	onOptionsItemSelected()
+	
+If you want to access the res folder files 
+into the java file By using R.java we can Access
+If you want access the res folder files into the
+xml file by using this '@' symbol
+
+
+	
+ 
