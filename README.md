@@ -74,6 +74,6 @@ Microphone and Speakers facility for Offline training program.
 
 
 
-#### (Note: All coding assignments/challenges are optional.)
+
 
 
