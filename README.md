@@ -72,7 +72,7 @@ Microphone and Speakers facility for Offline training program.
 ### Mode Of Training :
 - Online (Via GoToMeeting / Google Meet)
 
-[Assignments for more practice](https://docs.google.com/document/d/1s386eHtfqgVQiiokRfE83240tFpYFyoki0KxKd_Yli0/edit?usp=sharing)
+
 
 #### (Note: All coding assignments/challenges are optional.)
 
