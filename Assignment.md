@@ -21,4 +21,4 @@
       e) web url accessing 
       
       
-[Assignments for more practice](https://docs.google.com/document/d/1s386eHtfqgVQiiokRfE83240tFpYFyoki0KxKd_Yli0/edit?usp=sharing)
+[Click Here Assignments for more practice](https://docs.google.com/document/d/1s386eHtfqgVQiiokRfE83240tFpYFyoki0KxKd_Yli0/edit?usp=sharing)
