@@ -18,7 +18,7 @@
       b) Dail a phone call
       c) Get any geo location
       d) Share text
-      e) web url accesing 
+      e) web url accessing 
       
       
 [Assignments for more practice](https://docs.google.com/document/d/1s386eHtfqgVQiiokRfE83240tFpYFyoki0KxKd_Yli0/edit?usp=sharing)
