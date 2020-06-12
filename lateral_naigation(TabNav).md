@@ -263,7 +263,8 @@ public class ChatFragment extends Fragment {
 <img src="https://github.com/Muneiahtellakula/android_development/blob/master/tabNavPractical.gif">
 
 		
-		**Happy Coding**
-		## Thank You..!
+				## Happy Coding
+				
+				## Thank You..!
 
 
