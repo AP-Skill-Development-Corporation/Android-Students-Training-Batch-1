@@ -20,5 +20,6 @@
       d) Share text
       e) web url accessing 
       
+5.Create a new android studio project.With example of recyclerview
       
 [Click Here Assignments for more practice](https://docs.google.com/document/d/1s386eHtfqgVQiiokRfE83240tFpYFyoki0KxKd_Yli0/edit?usp=sharing)
