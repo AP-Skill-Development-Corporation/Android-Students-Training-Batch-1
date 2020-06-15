@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">MyRecyclerview</string>
+    <string-array name="version_names">
+        <item>Cupcake </item>
+        <item>Donut </item>
+        <item>Eclar</item>
+        <item>Froyo</item>
+        <item>Ginggerbrend</item>
+        <item>Honey Comb</item>
+        <item>Icecream Sandwich</item>
+        <item>Jallybean</item>
+        <item>Kit Kat</item>
+        <item>Lolipop</item>
+        <item>MarshMellow</item>
+        <item>Nougt</item>
+        <item>Oreo</item>
+        <item>Pie</item>
+        <item>Q</item>
+        <item>R</item>
+    </string-array>
 </resources>
