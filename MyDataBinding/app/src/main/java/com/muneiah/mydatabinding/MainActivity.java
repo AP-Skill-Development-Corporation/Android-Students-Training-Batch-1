@@ -12,6 +12,7 @@ import com.muneiah.mydatabinding.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 /* Step 3 enable Databing in out Activty/class*/
     ActivityMainBinding binding;
+    int c=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,26 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, ""+binding.editText.getText().toString()+
                         "\n"+binding.editText2.getText().toString(), Toast.LENGTH_SHORT).show();
+            }
+        });
+        binding.button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                c++;
+                binding.textView.setText(""+c);
+            }
+        });
+        binding.button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(c==0 || c >=0) {
+                    c--;
+                    binding.textView.setText(""+c);
+
+                }else {
+                    Toast.makeText(MainActivity.this, "should grater zero", Toast.LENGTH_SHORT).show();
+
+                }
             }
         });
     }
