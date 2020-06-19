@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Insert Data"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#05980B"
+        android:fontFamily="serif"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addname"
+        android:hint="Enter Student Name"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#CA0548"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addmail"
+        android:hint="Enter Student Mail"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#CA0548"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addphone"
+        android:hint="Enter Student Phone Number"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#CA0548"
+        android:inputType="phone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addrollnum"
+        android:hint="Enter Student Roll Number"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#CA0548"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="save"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:background="#673AB7"/>
+
+
+
+</LinearLayout>
