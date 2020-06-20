@@ -1,6 +1,7 @@
 package com.example.roomdbwithlivedata;
 
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -18,6 +19,6 @@ public interface StudentDao {
     public void delete(Student student);
 
     @Query("SELECT * FROM StudentInfo")
-    List<Student> readData();
+    LiveData<List<Student>> readData();
 
 }

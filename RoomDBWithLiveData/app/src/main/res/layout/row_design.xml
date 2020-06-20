@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:padding="2dp"
+    android:background="@drawable/border"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readRoll"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:text="Roll Number"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#673AB7"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readName"
+        android:textSize="20sp"
+        android:textColor="#E91E63"
+        android:text="Name"
+        android:padding="3dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readMail"
+        android:textSize="20sp"
+        android:padding="3dp"
+        android:textColor="#0A22A8"
+        android:text="Mail Id"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readPhone"
+        android:textSize="20sp"
+        android:padding="3dp"
+        android:textColor="#05910B"
+        android:text="Phone"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/delete"
+        android:src="@drawable/ic_delete_forever_black_24dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
