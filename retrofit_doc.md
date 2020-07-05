@@ -26,6 +26,9 @@ dependencies
     implementation 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha03'
+//for normal text
+    implementation 'com.squareup.retrofit2:converter-scalars:2.1.0'
+//for bulk data like pojo cls
     implementation 'androidx.cardview:cardview:1.0.0'
 }
 
